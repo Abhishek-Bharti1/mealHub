@@ -1,0 +1,107 @@
+@import './Colors.module.css';
+
+
+.recipeDetail1{
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+.foodIcon{
+  color: var(--reddark);
+  font-size: 35px;
+}
+
+#menu {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  padding: 4rem;
+}
+
+.head {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#menu > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menuCard {
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.495);
+}
+
+.menuCard > div {
+  border-radius: 20px 20px 0 0;
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+  height: 4rem;
+}
+
+.menuCard > main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuCard > main > img {
+  height: 15rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.menuCard > main > h5 {
+  font-size: 1.8rem;
+}
+
+.menuCard > main > p {
+  letter-spacing: 2px;
+  padding: 1rem 0;
+  font-size: 14px;
+}
+.read{
+  color: var(--reddark);
+  cursor: pointer;
+  transition: height 0.5 ease;
+}
+.menuCard > main > button {
+  background-color: var(--red);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menuCard > main > button:hover {
+  background-color: var(--reddark);
+}
+
+
+@media screen and (max-width: 600px) {
+  #menu > div {
+    flex-direction: column;
+  }
+
+  .menuCard {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+

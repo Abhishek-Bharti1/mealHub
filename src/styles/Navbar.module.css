@@ -1,0 +1,52 @@
+@import './Colors.module.css';
+
+nav {
+  height: 1rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.229);
+  background-color: white;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav > div > svg {
+  color: var(--red);
+  font-size: 3rem;
+}
+
+nav > div > a {
+  margin: 0 2rem;
+  color: var(--dark);
+  transition: color 0.3s;
+}
+
+nav > div > a:hover {
+  color: var(--lightdark);
+}
+
+nav > div > a > svg {
+  color: var(--red);
+  transition: inherit;
+  font-size: 1.5rem;
+}
+
+nav > div > a > svg:hover {
+  color: var(--lightdark);
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 1rem;
+    height: fit-content;
+  }
+
+  nav > div > a {
+    margin: 0 0.5rem;
+  }
+}
