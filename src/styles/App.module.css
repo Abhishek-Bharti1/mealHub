@@ -26,15 +26,7 @@ a {
     border-right: 1px solid #ddd;
     flex: 2;
   }
-  .bar {
-    width: 30px;
-    height: 3px;
-    background-color: #333;
-    margin: 5px 0;
-  }
-  .sidebar2{
-    display: none;
-  }
+
   
   .content {
     flex: 8;
@@ -46,9 +38,7 @@ a {
     .sidebar {
        display: none;
       }
-    .sidebar2{
-      display: block;
-    }
+ 
     
     }
 

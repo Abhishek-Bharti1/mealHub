@@ -15,9 +15,7 @@ const App = () => {
         <div className={styles.sidebar}>
           <RecipeList />
         </div>
-        <div className={styles.sidebar2}>
-          <Bars styles={styles}/>
-        </div>
+     
         <div className={styles.content}>
           <Routes>
             <Route path="/" element={<RecipeDetail />} />
