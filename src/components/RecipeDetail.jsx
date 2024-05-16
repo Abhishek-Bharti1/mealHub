@@ -21,7 +21,7 @@ const RecipeDetail = () => {
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        Select a recipe to see details{" "}
+        Select a recipe to see details or &nbsp;<span className={styles.messageDrag}>Drag and drop to re-arrange me.</span>
         <span className={styles.foodIcon}>
           <MdFoodBank />
         </span>

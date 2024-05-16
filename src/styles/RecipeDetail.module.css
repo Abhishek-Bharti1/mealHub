@@ -7,10 +7,11 @@
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
-  gap: 2vw;
   align-items: center;
 }
-
+.messageDrag{
+  color: var(--reddark);
+}
 .foodIcon{
   color: var(--reddark);
   font-size: 35px;
