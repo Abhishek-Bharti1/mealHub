@@ -6,6 +6,7 @@ import FavoriteRecipes from "./components/FavoriteRecipes";
 import Navbar from "./components/Navbar";
 import styles from "./styles/App.module.css";
 import { Toaster } from "react-hot-toast";
+
 const App = () => {
   return (
     <BrowserRouter>
